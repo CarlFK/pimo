@@ -218,7 +218,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/25bce39b-2b93-4f1d-8124-f0855e7d4eff")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -431,7 +431,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04fe95a7-c16e-48b5-b83c-4fd4c21fdc95")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -667,7 +667,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1f3b7ebf-27d1-4c60-bdfc-9d82315753e2")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -880,7 +880,7 @@
 		(property ki_fp_filters "RaspberryPi?Pico?Original?SMD RaspberryPi?Pico?Original?SMD?MoutingHoles RaspberryPi?Pico?Original?SMD?MoutingHoles?HandSolder?Castellated")
 		(path "/accd99a4-75b8-454b-b358-9011e56ef60c")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10 25.61)
@@ -4827,19 +4827,6 @@
 			)
 		)
 		(group ""
-			(uuid "2c4ea3a2-138e-4017-8413-c6954d7d9743")
-			(members "14bfccac-6c86-40bf-b6d0-1acfe6db553f" "1fb8abd4-8ed5-4944-919d-1b6c0da2765b"
-				"36b93fba-4a59-433b-9e58-ee2adf192615" "3f8b78f9-10fc-4171-8185-ce74b7eab43e"
-				"441a67f9-9bb4-40f9-b060-49217f53a46b" "57901408-e8bb-42a4-b962-c18104d07eda"
-				"5e4e5af3-8298-477d-b409-50bdb078213f" "603ecd3b-4b53-4787-9341-7735881a2684"
-				"6963ad3f-a528-4d4f-8a34-af3e8cf2d797" "6dcc4ca0-dd62-408a-b975-a5d509d6f05a"
-				"72543bf2-92bf-4c9f-aae0-5e0d8ac989de" "93ce6be5-1981-425b-96ee-95bcbac66bb1"
-				"a8bb4dab-4208-4bb1-93a8-8facc3dcb5c6" "c9ea4ea7-a54d-4024-99fc-23de0176ed1e"
-				"ce17754f-3d28-4839-a5c2-34c3ae78c33e" "d1594a6c-d621-4d6d-934d-5eeaf1fe625f"
-				"edd7e98c-335a-4432-a680-9e07309003f3" "f1b4d796-f662-4df3-9072-05fc6338913b"
-			)
-		)
-		(group ""
 			(uuid "c875045d-6d67-4590-b56a-0b4afb196d72")
 			(members "06cfe6f3-dd55-47a3-8ed1-8876b2d81971" "0b7fcbd0-00e3-43df-8ffc-afd5caa0f896"
 				"0b94a491-d103-456f-9f91-5d68d25908f6" "1175cb77-8d26-40fd-bc51-f904e95d77ea"
@@ -4865,6 +4852,19 @@
 				"d7bd4def-ebb6-4813-8b97-23cc7bd50025" "e9196903-ea81-45bf-bdea-cfa552e78bd3"
 				"eb6d24ea-cece-43e0-8b15-a4958a1972f0" "f210cbfb-265c-4824-9305-ff93c73a6395"
 				"f433bbe9-5cde-49a3-b6b6-9a4d1a2a4dbf" "fadb285e-c5ee-4b6e-9761-0f37a030357d"
+			)
+		)
+		(group ""
+			(uuid "2c4ea3a2-138e-4017-8413-c6954d7d9743")
+			(members "14bfccac-6c86-40bf-b6d0-1acfe6db553f" "1fb8abd4-8ed5-4944-919d-1b6c0da2765b"
+				"36b93fba-4a59-433b-9e58-ee2adf192615" "3f8b78f9-10fc-4171-8185-ce74b7eab43e"
+				"441a67f9-9bb4-40f9-b060-49217f53a46b" "57901408-e8bb-42a4-b962-c18104d07eda"
+				"5e4e5af3-8298-477d-b409-50bdb078213f" "603ecd3b-4b53-4787-9341-7735881a2684"
+				"6963ad3f-a528-4d4f-8a34-af3e8cf2d797" "6dcc4ca0-dd62-408a-b975-a5d509d6f05a"
+				"72543bf2-92bf-4c9f-aae0-5e0d8ac989de" "93ce6be5-1981-425b-96ee-95bcbac66bb1"
+				"a8bb4dab-4208-4bb1-93a8-8facc3dcb5c6" "c9ea4ea7-a54d-4024-99fc-23de0176ed1e"
+				"ce17754f-3d28-4839-a5c2-34c3ae78c33e" "d1594a6c-d621-4d6d-934d-5eeaf1fe625f"
+				"edd7e98c-335a-4432-a680-9e07309003f3" "f1b4d796-f662-4df3-9072-05fc6338913b"
 			)
 		)
 		(group ""
@@ -5189,7 +5189,7 @@
 		)
 		(path "/fe24b4c2-a48b-495c-b643-bbe45dae8632")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -29.5 -3.5)
@@ -6710,7 +6710,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e4eeafdd-0f3a-422a-ab72-d9a7f0fbfa6b")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -7000,7 +7000,7 @@
 		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/a934acf2-82cb-4ffa-8c20-fe373f0520c1")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.725 -2.725)
@@ -7358,7 +7358,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3a17a7f3-1e1e-4e7d-873e-05b9fd4a3e3c")
 		(sheetname "Root")
-		(sheetfile "pj.kicad_sch")
+		(sheetfile "pimo.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
