@@ -8266,7 +8266,7 @@
 			)
 		)
 	)
-	(gr_text "github.com/CarlFK/pimo v0.9"
+	(gr_text "github.com/CarlFK/pimo v1.0"
 		(at 96.2 56.2 270)
 		(layer "F.SilkS")
 		(uuid "1ff701fb-49fc-466c-8f29-df6344ea4898")
